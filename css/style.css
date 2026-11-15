@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+section {
+    max-width: 480px;
+    margin: 24px auto;
+    padding: 20px;
+    border: 2px solid #4336f3;
+    border-radius: 10px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #3c36f3;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#resultado,
+#resultado11,
+#resultado22,
+#resultado33,
+#resultado44 {
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #fde9f5;
+}
+
+
+h2 {
+    color: #250a5e;
+}
+
+label {
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+#resultado11 {
+    background-color: #f8f0f0;
+}
+
+#resultado22,
+#resultado33,
+#resultado44 {
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #f8f0f0;
+    margin: 6px 0;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #364ff3;
+    box-shadow: 0 0 3px #f8f0f0;
+}
+
+#Resultado_suma,
+#Resultado_resta,
+#Resultado_multiplicacion,
+#Resultado_divicion {
+    font-weight: bold;
+    color: #220a5e;
+}
